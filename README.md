@@ -64,5 +64,129 @@
 > Full detail: **[Where this data comes from](https://apievangelist.com/about/where-our-data-comes-from)**
 <!-- API-EVANGELIST-PROVENANCE:END -->
 
-Ovok is a company surfaced via the API Evangelist harvest backlog (source: new-submission) and added to the network as a stub for full-pipeline profiling.
-- https://www.ovok.com/
+Ovok provides a FHIR R4 backend platform enabling digital health applications to store, manage, and exchange clinical data. It offers a comprehensive device catalogue of over 800 medical devices, SDKs for React, TypeScript, and React Native, and supports real-time data transmission for MDR Class IIa evaluation. The service facilitates patient‑eligible vital reading collection, secure FHIR‑based APIs, and integrates with remote patient monitoring workflows.
+
+**Areas:** Company · Healthcare · FHIR · DigitalHealth · APIPlatform
+
+## Ovok on APIs.io
+
+Everything profiled for Ovok is published on APIs.io rather than in this repository. Start at the provider page — **[apis.io/providers/ovok/](https://apis.io/providers/ovok/)** — or go straight to one of the APIs or properties below.
+
+### APIs (1)
+
+- [Ovok API](https://apis.io/apis/ovok/ovok-api/) — Ovok API as documented publicly: 25 operations. Contract generated from the documentation by API Evangelist (2026-11-08); not the provider's own document.
+
+### Published properties
+
+Each property below is a page on APIs.io carrying the machine-readable artifact and what it says.
+
+#### AsyncAPI (1)
+
+Event-driven and webhook contracts.
+
+- [Ovok Webhooks](https://apis.io/asyncapis/ovok/ovok-webhooks/)
+
+#### JSON Schema (6)
+
+The data models the API reads and writes.
+
+- [GetFhirR4BundleResponse](https://apis.io/schemas/ovok/ovok-get-fhir-r4-bundle-response/)
+- [PostFhirR4DeviceRequest](https://apis.io/schemas/ovok/ovok-post-fhir-r4-device-request/)
+- [PostFhirR4GoalRequest](https://apis.io/schemas/ovok/ovok-post-fhir-r4-goal-request/)
+- [PostFhirR4MediaRequest](https://apis.io/schemas/ovok/ovok-post-fhir-r4-media-request/)
+- [PostFhirR4PatientPatientIdRequest](https://apis.io/schemas/ovok/ovok-post-fhir-r4-patient-patient-id-request/)
+- [PostFhirR4PatientRequest](https://apis.io/schemas/ovok/ovok-post-fhir-r4-patient-request/)
+
+#### JSON-LD (1)
+
+Linked-data contexts for the provider's vocabulary.
+
+- [Ovok Context](https://apis.io/jsonld/ovok/ovok-context/)
+
+#### Governance rules (1)
+
+Spectral rulesets for the provider's contracts.
+
+- [Ovok API Rules](https://apis.io/rules/ovok/ovok-rules/)
+
+#### Security (2)
+
+Authentication, trust centre, and vulnerability disclosure.
+
+- [Ovok Authentication](https://apis.io/security/ovok/ovok-authentication/)
+- [Ovok Domain Security](https://apis.io/security/ovok/ovok-domain-security/)
+
+#### Plans and pricing (1)
+
+Published plans, tiers and prices.
+
+- [Ovok Plans Pricing](https://apis.io/plans/ovok/ovok-plans-pricing/)
+
+## Where to find this API
+
+Links to the company's own pages. This repository publishes no copy of their specifications — the canonical document is theirs and lives at the URLs below.
+
+- [Website](https://www.ovok.com/)
+- [Documentation](https://docs.ovok.com/)
+- [Getting started](https://docs.ovok.com/get-started)
+- [Pricing](https://ovok.com/pricing)
+- [Sign up](https://ovok.com/auth/register)
+- [Changelog](https://docs.ovok.com/changelog)
+- [Blog](https://ovok.com/blog)
+- [Status](https://ovok.com/status)
+
+## API Evangelist rating
+
+**Kin Score 57.5** — strong · rubric 0.27.0 · scored 2026-11-08
+
+| Facet | Score |
+|---|---|
+| Discoverability | 66.1 |
+| Contract quality | 62.6 |
+| Contract governance | 79.1 |
+| Operational transparency | 39.5 |
+| Developer ergonomics | 50.0 |
+| Access clarity | 52.1 |
+
+**Agent readiness 40.6** — agent-ready (gated down from agent-native)
+
+| Agent-readiness dimension | Result |
+|---|---|
+| Spec Presence | yes |
+| Agentic Access | — |
+| Reversibility Documented | — |
+| MCP Server | documented (partial credit) |
+| Auth Clarity | served (partial credit) |
+| Idempotency | — |
+| Error Semantics | — |
+| OpenAPI Examples | — |
+| Rate Limit Signal | — |
+| Event Surface Described | unknown |
+| Agent Skills | — |
+| Well Known Catalog | yes |
+| Consent Identity | — |
+| Agent Card | — |
+| Dry Run Mode | — |
+| Delegated Identity | served (partial credit) |
+| Protected Resource Metadata | verified |
+| Dynamic Client Registration | yes |
+| Agentic Commerce | — |
+| Pagination Ratio | na |
+| Operation Distinctiveness | — |
+| MCP Tool Quality | na |
+
+**Regulatory alignment 13.3** — Health
+
+The rubric is published at [github.com/api-evangelist/kin-score](https://github.com/api-evangelist/kin-score). The per-check breakdown behind these numbers — which checks were earned, partial or missed — along with score history and how this provider compares to its peers, is available at [apis.io/providers/ovok/](https://apis.io/providers/ovok/).
+
+## How this profile is made
+
+API Evangelist profiles a company's public API surface the way a developer would find it: the website, developer portal and documentation, the specifications it publishes, its public repositories, and its pricing, status and changelog pages. From that it derives the properties above — contracts split per API, workflows, schemas, collections, governance rules, plans and rate limits — and scores them against the published [Kin Score rubric](https://github.com/api-evangelist/kin-score).
+
+The artifacts are published on [APIs.io](https://apis.io), not in this repository. This repository is the public record for Ovok: the place to say something is wrong, missing or out of date, and to ask for a re-score or a removal.
+
+## Open an issue
+
+- **Something about this listing** — a wrong description, a missing API, a stale artifact or a question about the rating: [open an issue on this repository](https://github.com/api-evangelist/ovok/issues/new).
+- **A new API, or one that is not in the catalog yet** — [submit it on APIs.io](https://apis.io/add/).
+- **Anything else** — [the APIs.io inbox](https://github.com/api-search/inbox/issues/new) or [info@apievangelist.com](mailto:info@apievangelist.com).
