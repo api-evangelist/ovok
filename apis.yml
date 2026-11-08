@@ -1,0 +1,31 @@
+aid: ovok
+name: Ovok
+description: 'Ovok is a company surfaced via the API Evangelist harvest backlog (source: new-submission)
+  and added to the network as a stub for full-pipeline profiling.'
+url: https://artifacts.apis.io/ovok/apis.yml
+x-type: company
+x-source: harvest:new-submission
+x-tier: stub
+x-tier-reason: harvest
+specificationVersion: '0.20'
+created: '2026-11-08'
+modified: '2026-11-08'
+tags:
+- Company
+apis: []
+maintainers:
+- FN: Kin Lane
+  email: kin@apievangelist.com
+- FN: APIs.json
+  email: info@apis.io
+common:
+- type: Website
+  url: https://www.ovok.com/
+- type: Documentation
+  url: https://docs.ovok.com/
+x-submission-notes: 'Ovok is a FHIR R4 backend and developer platform for connected-health and remote
+  patient monitoring applications.  The platform includes: - a FHIR R4 API for clinical resources and
+  workflows, - React/TypeScript and React Native SDKs, - connected medical-device integrations, - real-time
+  and remote-mo'
+x-submission-probe: 2026-11-07 200 https://ovok.com/ ctl=404
+x-submitted-by: sarwagya@actimi.com (submission, 2026-11-07)
